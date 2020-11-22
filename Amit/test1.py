@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("/Users/amitcharran/Desktop/weekend.csv")
 
-# print(df)
+print(df)
 
 df.set_index("0-1")
 
